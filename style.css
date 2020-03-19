@@ -1,0 +1,32 @@
+body {
+    background-color: #76b052;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    width: 360px
+}
+
+input {
+    background-color: #f2f2f2;
+    height: 46px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+
+button {
+    background-color: #4CAf50;
+    color: white;
+    height: 46px;
+}
