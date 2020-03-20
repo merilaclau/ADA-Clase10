@@ -1,17 +1,16 @@
 body {
     background-color: #76b052;
-    font-family: 'Roboto', sans-serif;
-}
-
-.form {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 100vh;
+    margin: 0;
 }
 
 form {
     background-color: white;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     padding: 45px;
@@ -20,13 +19,21 @@ form {
 
 input {
     background-color: #f2f2f2;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
     height: 46px;
     margin-bottom: 15px;
-    padding: 0 15px;
+    padding-left: 15px;
 }
 
 button {
     background-color: #4CAf50;
+    border: none;
+    box-sizing: border-box;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     height: 46px;
 }
